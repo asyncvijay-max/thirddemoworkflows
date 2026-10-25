@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - run: ls
-      - run: cat simple.txt
+      - run: python3 --version
+      - run: python3 hello.py
