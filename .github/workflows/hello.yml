@@ -1,4 +1,4 @@
-on: [push, workflow_dispatch]
+on: [xpush, workflow_dispatch]
 
 jobs:
   say-hello:
